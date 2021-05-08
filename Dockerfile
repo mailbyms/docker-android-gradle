@@ -7,8 +7,8 @@ RUN apt-get update \
 
 ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     ANDROID_SDK_ROOT="/usr/local/android-sdk" \
-    ANDROID_VERSION=30 \
-    ANDROID_BUILD_TOOLS_VERSION=30.0.0 \
+    ANDROID_VERSION=29 \
+    ANDROID_BUILD_TOOLS_VERSION=29.0.3 \
     ANDROID_HOME="/usr/local/android-sdk"
 
 # Download Android SDK
